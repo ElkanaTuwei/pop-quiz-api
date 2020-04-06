@@ -8,6 +8,6 @@ urlpatterns = [
     
     path(r'', admin.site.urls),
 ]
-admin.site.site_header = "habahaba Admin"
-admin.site.site_title = "habahaba Admin Portal"
-admin.site.index_title = "habahaba Administrator portal"
+admin.site.site_header = "Quiz Admin"
+admin.site.site_title = "Quiz Admin Portal"
+admin.site.index_title = "Quiz Administrator portal"
