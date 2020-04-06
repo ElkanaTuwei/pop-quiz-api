@@ -1,0 +1,22 @@
+{
+  "name": "Pop-quiz API",
+  "description": "Quiz admin and API",
+  "image": "heroku/python",
+  "repository": "https://github.com/ElkanaTuwei/pop-quiz-api",
+  "keywords": ["python", "django" ],
+  "addons": [ "heroku-postgresql" ],
+  "env": {
+    "SECRET_KEY": {
+      "description": "_1j^zc1+gc@o0q0xbd8%(vvj_ak0-qur=(zya4rbn%0uzk7hr_",
+      "generator": "secret"
+    }
+  },
+  "environments": {
+    "test": {
+      "scripts": {
+        "test-setup": "python manage.py collectstatic --noinput",
+        "test": "python manage.py test"
+      }
+    }
+  }
+}
