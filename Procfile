@@ -1,1 +1,1 @@
-web: gunicorn rag_pop_quiz_api.wsgi
+web: gunicorn rag_pop_quiz_api.wsgi --log-file -
