@@ -83,7 +83,7 @@ team==1.0
 texttable==1.6.2
 toml==0.10.0
 udiskie==2.1.0
-urllib3==1.25.7
+urllib3==1.25.8
 webencodings==0.5.1
 websocket-client==0.57.0
 whitenoise==5.0.1
